@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Regional Income Disparities, Distributional Convergence, and Spatial Effects</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Felipe Santos-Marquez   Anang Budi Gunawan   Carlos Mendez   GSID, Nagoya University, JAPAN" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Regional Income Disparities, Distributional Convergence, and Spatial Effects
+## Evidence from Indonesian Regions 2010-2017
+### Felipe Santos-Marquez <br /> Anang Budi Gunawan <br /> Carlos Mendez <br /><br />GSID, Nagoya University, JAPAN <br />
+### Prepared for the QuaRCS lab meeting September 3rd 2020 <br />[ slides available at: <a href="https://felipe-santos.rbind.io/" class="uri">https://felipe-santos.rbind.io/</a>]
+
+---
+
+
+
+
+
+## Motivation:
+
+- there is limited research about decentralization in Indonesia that has provided a conclusive answer on the regional income disparity dynamics
+- Scarce academic literature on convergence at the distric  level. 
+  
+## Research Question:
+  
+- To what extent the role of space affects the convergence dynamics across Indonesian regions?
+
+  
+## Methods:
+
+- Classical convergence framework (Barro and Sala-i-Martin 1992)
+and  Distributional convergence framework (Quah 1996; Hyndman et. al 1996)
+
+- Spatial autocorrelation (Moran's I and differential Moran's I)
+
+- Getis Filter (Getis 1995)
+
+
+
+---
+# Main Results
+
+1. **Significant Spatial Autocorrelation** at the district level. 
+
+2. **Distributional Convergence** 
+
+  - For provinces there are 4 convergence clubs
+  - For districs high mobility in the upper tail of the distribution/
+  
+3. **Filtered data ** 
+
+  - High mobility on the filtered distribution.
+  - Faster convergence speed for fitlered data.
+  
+4. **Spatial effects**
+  
+  - Spatial effects are reducing the convergence of income at the distric level.
+
+5. **Policy Implication**
+
+  - Increasing the effectiveness of local government's policies and coordination among regions.
+  
+---
+class: middle
+
+# Outline of this presentation
+
+1. **Introduction and Data**
+
+  - Does decentralization promote regional development? 
+  - A newly constructed dataset
+
+2. **Spatial autocorrelation** 
+
+  - Standard Moran's I
+  - Differential Moran's I
+
+3. **Spatial Filtering Perspectives** 
+
+  - Distributional Dynamic Framework 
+  - Getis Spatial Filter
+    
+4. **Income dynamic transition accross districts and provinces **
+
+5. **The filtered data and spatial effects**
+  
+6. **Concluding Remarks**
+
+
+---
+class: middle
+
+# (1) Data
+
+**The centroid coordinates of the capital cities of the districts**
+
+&lt;img src="figs/01_map_districs.PNG" style="width: 50%"  class="center" /&gt;
+
+**A balanced dataset (districs interpolation). Income per capita for 34 provinces and 514 districts over the 2010-2017 period**
+
+
+.pull-left[
+
+&lt;img src="figs/01_quantile_2010.PNG" style="width: 96%" /&gt;
+]
+
+.pull-right[
+
+&lt;img src="figs/01_quantile_2017.PNG" style="width: 96%" /&gt;
+
+]
+
+
+
+---
+
+class: middle
+
+# (1) Introduction: 
+##Decentralization to promote regional growth
+
+- After the implentation of decentralization in 2000,the number of provinces and districts (cities and regencies) increased significantly.
+
+- Local governments are granted a greater political autonomy and substantial resposibilities for administration and public services provision.
+
+&lt;img src="figs/Intro.PNG" style="width: 80%" /&gt;
+
+---
+class: middle
+
+# (2) Spatial Autocorrelation : 
+
+##Moran's I and Differential Moran's I
+
+`$$I = \frac{\sum_i\sum_j w_{ij} z_i.z_j}{\sum_i z_i^2} = \frac{\sum_i (z_i \times \sum_j w_{ij} z_j)}{\sum_i z_i^2}.$$`
+
+- To capture the magnitudes of linear relationship of a variable in one location with spatially weighted average of values at neighboring locations.
+
+- The differential Moran's I is conducted to evaluate the robustness. 
+ 
+ &lt;img src="figs/moran.PNG" style="width: 90%" /&gt;
+---
+
+class: middle
+
+# Spatial Autocorrelation Moran's I 
+
+##"Strong signs of spatial autocorrelation"
+
+&lt;img src="figs/04_moran.PNG" style="width: 60%" /&gt;
+
+**Moran's I is significant at districts level (p-value&lt;0.01) for all years from 2010-2017**
+
+**The differential Moran's I is significant from 2013**
+
+---
+
+# (3) Spatial Filtering Persepective
+
+&lt;img src="figs/getis.PNG" style="width: 90%" /&gt;
+ 
+**A spatial filtering of the data can help us to avoid misguided interpretation**
+
+**Instead of using spatial regressions we can remove the spatial component of socio-economic variables**
+
+---
+class: middle, center
+# (3) Distribution Dynamics Framework
+
+
+&lt;img src="figs/dyst.PNG" style="width: 70%" /&gt;
+
+
+---
+# Income dynamics for districts
+
+## Highmobility in the upper tail of the distribution
+
+.pull-left[
+
+![](figs/dis1.png)
+]
+
+.pull-right[
+
+![](figs/dis2.png)
+]
+
+---
+# (4) Income dynamics - provinces 
+
+*Since Spatial autocorrelation is not significant for provinces just dutributional and classical convergence analysis are reported.*
+
+.pull-left[
+
+![](figs/pro1.png)
+]
+
+.pull-right[
+
+**There are at least 2 convergence clubs, 
+two in the upper tail and 2 in the middle of the distribution**  
+
+![](figs/pro2.png)
+]
+
+
+
+---
+# (5) Filtered income dynamics 
+
+## Distributional convergence and clusters for the **filterd income variable**
+
+
+.pull-left[
+
+
+
+![](figs/fil1.png)
+]
+
+.pull-right[
+
+
+![](figs/fil2.png)
+]
+
+
+---
+
+# (5) Classical convergence results 
+
+
+.pull-left[
+
+
+
+![](figs/beta1.png)
+]
+
+.pull-right[
+
+
+![](figs/beta2.png)
+]
+
+&lt;img src="figs/table1.PNG" style="width: 100%" /&gt;
+
+
+---
+# (6) Concluding Remarks
+
+## Inequality still matters  :
+
+- Low mobility for the poorest districts and provinces
+- The convergence speed is below the standard in the regional literature
+- Spatial effects are reducing the pace of convergence 
+
+## Implications 
+
+- The spatially filtered regional income is important in order to avoid misleading interpretations.
+- Call for better coordination of regional policies at the cluster level.
+- Enhance interregional connectivity and cooperation.
+
+
+---
+class: center
+# Thanks!
+
+** Thank you very much for your attention**
+
+QuaRCS lab website 
+https://quarcs-lab.rbind.io/
+
+ &lt;img src="figs/logo2.png" style="width: 40%" /&gt;
+
+**Quantitative Regional and Computational Science Lab**
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
