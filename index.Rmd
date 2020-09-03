@@ -2,7 +2,7 @@
 title: "Regional Income Disparities, Distributional Convergence, and Spatial Effects"
 subtitle: "Evidence from Indonesian Regions 2010-2017"
 author: "Felipe Santos-Marquez   <br />  Anang Budi Gunawan  <br /> Carlos Mendez <br /><br />GSID, Nagoya University, JAPAN <br />"
-date: "Prepared for the QuaRCS lab meeting September 3rd 2020 <br />[ slides available at: https://felipe-santos.rbind.io/]"
+date: "Prepared for the QuaRCS lab meeting September 3rd 2020 <br />[ slides available at: https://project2019e.netlify.app]"
 output:
   xaringan::moon_reader:
     css: ["default", "metropolis-fonts", "metropolis"]
